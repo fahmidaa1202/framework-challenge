@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="screen.css">
   </head>
-  <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
+  <body class="bg-gray-900 text-white font-sans">
+    
+    <header class="text-center py-10">
+      <h1 class="text-5xl font-bold">Welcome to Time Travel Inc.</h1>
+      <p class="text-xl mt-4">Your gateway to the past, present, and future</p>
+    </header>
+
+    <nav class="bg-gray-800 p-4">
+      <ul class="flex justify-center space-x-8">
+        <li><a href="index.html" class="text-white hover:text-yellow-500">Home</a></li>
+        <li><a href="about.html" class="text-white hover:text-yellow-500">About</a></li>
       </ul>
     </nav>
+
+    <section class="py-16 px-4 text-center">
+      <p class="text-lg max-w-2xl mx-auto">
+        Explore time travel opportunities with us! Visit different eras, experience history firsthand, and journey into the future. Adventure awaits!
+      </p>
+    </section>
+
+    <footer class="bg-gray-800 text-center py-6">
+      <p>&copy; 2024 Time Travel Inc. All Rights Reserved.</p>
+    </footer>
+
     <script src="index.js"></script>
   </body>
 </html>
+
