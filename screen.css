@@ -1,4 +1,5 @@
 /* Add screen styles below */
-a.active {
+nav a.active {
     font-weight: bold;
-}
+    color: #f59e0b; /* Tailwind yellow color */
+  }
